@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-14628.jpg);
+}
+h1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    background-color:rgb(172, 207, 195);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    text-align: center;
+    font-size: larger;
+}
+.image-container img {
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+h2{
+    text-align: center;
+    border: 2px solid black;
+    color:rgb(68, 109, 109)
+}
